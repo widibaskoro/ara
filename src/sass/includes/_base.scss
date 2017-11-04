@@ -1,13 +1,13 @@
 /*	FONTS
 ------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro);
 
 /*	TYPOGRAPHY
 –––––––––––––––––––––––––––*/
 
 body {
-  font-family: 'Raleway', Arial, sans-serif, ;
+  font-family: 'Source Sans Pro', Arial, sans-serif, ;
   color: #555;
   font-size: 100%;
   line-height: 1.5;
@@ -15,6 +15,9 @@ body {
   margin: 0;
 }
 
+img{
+  width: 100%;
+}
 
 /* ------ Normalize ----- */
 
@@ -22,4 +25,55 @@ body {
 *:after,
 *:before {
   box-sizing: border-box;
+}
+
+.container{
+  max-width: 992px;
+  margin: auto;
+}
+.f-c {
+  display: flex;
+  flex-direction: column;
+}
+.f-r {
+  display: flex;
+  flex-direction: row;
+}
+.mdl {
+  display: flex;
+  align-items: center;
+}
+.btw{
+  display: flex;
+  justify-content: space-between;
+}
+.f-ctr{
+  display: flex;
+  justify-content: center;
+}
+.f-end{
+  display: flex;
+  align-items: flex-end;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.six {
+  width: 50%;
+}
+.three {
+  width: 25%;
+}
+.btn{
+  padding: 12px 50px;
+  text-decoration: none;
+  background: white;
+  // border: solid 1px black;
+  font-size: 1.3em;
+  color: #333;
+  font-weight: 600;
+  &:hover{
+    background: #eaeaea;
+  }
 }

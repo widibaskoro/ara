@@ -1,5 +1,6 @@
 @import "includes/base";
-
+@import "block/header";
+@import "block/footer";
 header {
   h1 {
     font-weight: 300;
@@ -7,4 +8,130 @@ header {
     font-size: 60px;
     margin-top: 180px;
   }
+}
+.main-content{
+  margin: 20px 0;
+}
+.product-card {
+  position: relative;
+  height: 440px;
+  margin: 10px;
+  overflow: hidden;
+  .image, img{
+    width: 100%;
+  }
+
+  &:hover .image::after{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .image {
+    position: absolute;
+    z-index: -1;
+    &::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      background-color: rgba(#fb8c00, .5);
+      transform: translateX(-100%);
+      opacity: 0;
+      transition: transform .3s ease, opacity .5s ease;
+    }
+  }
+
+  .content{
+    z-index: 2;
+    padding: 40px 40px;
+    height: 100%;
+  }
+  h3 {
+    font-family: "Source Serif Pro";
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 1px;
+    margin: 5px;
+  }
+}
+.list-product {
+  .head-content {
+    overflow: hidden;
+    h3 {
+      font-family: "Source Serif Pro";
+      font-size: 1.65em;
+      position: relative;
+      background: white;
+      display: inline-block;
+      &::after {
+        content: '';
+        height: 1px;
+        width: 100vw;
+        background: #d7d7d7;
+        position: absolute;
+        left: 106%;
+        margin-top: 20px;
+        z-index: 1;
+      }
+    }
+  }
+  ul.product {
+    padding: 0;
+    margin: 0;
+    li{
+      padding: 0 10px;
+    }
+  }
+  .content {
+    h4 {
+      margin: 20px 0 8px;
+      line-height: 0;
+      font-weight: 400;
+    }
+    span {
+      font-weight: 800;
+      color: #222;
+    }
+  }
+  .images {
+    position: relative;
+    display: grid;
+    &:hover .action {
+      display: flex;
+    }
+    .action {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      i {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      a{
+        width: 50%;
+        opacity: .7;
+        text-decoration: none;
+        color: white;
+        background: rgba(0,0,0,.6);
+        font-weight: 400;
+        font-size: .875em;
+        &:hover{
+          background: rgba(0,0,0,.8);
+          opacity: .9;
+        }
+      }
+
+    }
+  }
+  img {
+    width: 100%;
+  }
+
+}
+.current-promo .container{
+  padding: 0 10px;
+  margin-top: 10px;
 }

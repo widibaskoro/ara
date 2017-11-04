@@ -1,5 +1,77 @@
 {
-  "title": "Pug-Sass Starter",
+  "title": "Ara Design & Printing",
   "welcome": "Gulp Pug Sass Starter",
-  "link": "github.com/azemoh"
+  "link": "http://localhost:3000/",
+  "product": [
+    "Logo",
+    "Kartu Nama",
+    "Kop Surat",
+    "Amplop",
+    "Faktur",
+    "Invoice",
+    "Kwitansi",
+    "Nota",
+    "Surat Jalan",
+    "Stemple",
+    "Map",
+    "Brosur",
+    "Flyer",
+    "Leaflet",
+    "Katalog",
+    "Poster",
+    "Kartu Undangan",
+    "Kartu Ucapan",
+    "Voucher",
+    "Kartu Diskon",
+    "Company Profile",
+    "Buletin",
+    "Tabloid",
+    "Majalah",
+    "Kalender",
+    "Agenda",
+    "Buku Tahunan",
+    "Spanduk",
+    "Umbul-umbul",
+    "Round Tag",
+    "Banner",
+    "Backdrop",
+    "Giant Banner",
+    "X-Banner",
+    "Roll-up Banner",
+    "NeonBox",
+    "Reklame",
+    "Billboard",
+    "Shopping Bag",
+    "Box Catering",
+    "Sticker",
+    "ID Card",
+    "Pulpen",
+    "Mug",
+    "Gelas",
+    "Pin",
+    "Kaos",
+    "Jaket",
+    "Tas",
+    "Payung",
+    "Seragam",
+    "Plakat"
+  ],
+  "nav": {
+    "links": [
+      {
+        "href": "/link1",
+        "displayName": "Link 1"
+      },
+
+      {
+        "href": "/link2",
+        "displayName": "Link 2"
+      },
+
+      {
+        "href": "/link3",
+        "displayName": "Link 3"
+      }
+    ]
+  }
 }

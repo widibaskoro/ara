@@ -7,7 +7,8 @@ var gulp = require('gulp'),
   pug = require('gulp-pug'),
   prefix = require('gulp-autoprefixer'),
   sass = require('gulp-sass'),
-  browserSync = require('browser-sync');
+  browserSync = require('browser-sync'),
+  fs = require('fs');
 
 /*
  * Directories here
@@ -33,6 +34,7 @@ gulp.task('pug', function () {
       process.stderr.write(err.message + '\n');
       this.emit('end');
     })
+
     .pipe(gulp.dest(paths.public));
 });
 
