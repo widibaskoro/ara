@@ -63,6 +63,7 @@ header {
       position: relative;
       background: white;
       display: inline-block;
+      color: #ff9800;
       &::after {
         content: '';
         height: 1px;
@@ -90,12 +91,13 @@ header {
     }
     span {
       font-weight: 800;
-      color: #222;
+      color: #a72323;
     }
   }
   .images {
     position: relative;
     display: grid;
+    // border: solid 3px #ff9800;
     &:hover .action {
       display: flex;
     }
