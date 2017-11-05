@@ -11,7 +11,7 @@ body {
   color: #555;
   font-size: 100%;
   line-height: 1.5;
-  background-color: #f2f2f2;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -30,6 +30,8 @@ img{
 .container{
   max-width: 992px;
   margin: auto;
+  background: white;
+  padding: 0 20px;
 }
 .f-c {
   display: flex;
@@ -68,12 +70,13 @@ img{
 .btn{
   padding: 12px 50px;
   text-decoration: none;
-  background: white;
-  // border: solid 1px black;
+  background: transparent;
+  border: solid 2px white;
   font-size: 1.3em;
-  color: #333;
+  color: white;
   font-weight: 600;
   &:hover{
     background: #eaeaea;
+    color: #333;
   }
 }

@@ -10,34 +10,52 @@ header {
   }
 }
 .main-content{
-  margin: 20px 0;
+  // margin: 20px 0;
+  background: #000;
+  padding: 20px 0;
+  padding-top: 0;
+
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  & > .container {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 .product-card {
   position: relative;
   height: 440px;
-  margin: 10px;
+  // margin: 10px;
+  // width: calc(50% - 20px);
   overflow: hidden;
   .image, img{
     width: 100%;
   }
-
+  img {
+    transition: transform 8s linear;
+  }
   &:hover .image::after{
-    transform: translateX(0);
-    opacity: 1;
+    opacity: .6;
+  }
+  &:hover .image img {
+    transform: scale(1.2);
   }
   .image {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     &::after {
       content: '';
       position: absolute;
       height: 100%;
       width: 100%;
       left: 0;
-      background-color: rgba(#fb8c00, .5);
-      transform: translateX(-100%);
-      opacity: 0;
-      transition: transform .3s ease, opacity .5s ease;
+      background-color: rgba(#000, .7);
+      opacity: 1;
+      transition: transform .3s ease, opacity .2s ease;
     }
   }
 
@@ -45,10 +63,11 @@ header {
     z-index: 2;
     padding: 40px 40px;
     height: 100%;
+    position: inherit;
   }
   h3 {
     font-family: "Source Serif Pro";
-    font-size: 2.5em;
+    font-size: 2.25em;
     color: white;
     letter-spacing: 1px;
     margin: 5px;
@@ -57,23 +76,14 @@ header {
 .list-product {
   .head-content {
     overflow: hidden;
+    padding: 0 20px;
     h3 {
       font-family: "Source Serif Pro";
       font-size: 1.65em;
       position: relative;
       background: white;
-      display: inline-block;
-      color: #ff9800;
-      &::after {
-        content: '';
-        height: 1px;
-        width: 100vw;
-        background: #d7d7d7;
-        position: absolute;
-        left: 106%;
-        margin-top: 20px;
-        z-index: 1;
-      }
+      color: #333;
+      text-align: center;
     }
   }
   ul.product {
@@ -81,6 +91,7 @@ header {
     margin: 0;
     li{
       padding: 0 10px;
+      margin-bottom: 20px;
     }
   }
   .content {
@@ -136,4 +147,21 @@ header {
 .current-promo .container{
   padding: 0 10px;
   margin-top: 10px;
+}
+.section-about{
+  .text{
+    width: 60%;
+    h1{
+      font-family: "Source Serif Pro";
+      font-size: 4em;
+      color: black;
+    }
+    p{
+      font-size: 1em;
+      line-height: 2em;
+    }
+  }
+  .image{
+    width: 40%;
+  }
 }

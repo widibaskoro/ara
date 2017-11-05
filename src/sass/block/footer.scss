@@ -1,8 +1,11 @@
 .footer {
   margin-top: 50px;
-  background: white;
+  background: black;
   padding: 5px 0;
   border-top: solid 1px #d7d7d7;
+  .container{
+    background: transparent;
+  }
   .logo {
     // text-align: center;
     a {
@@ -13,6 +16,7 @@
     h2 {
       margin: 0;
       line-height: 1;
+      color: white;
     }
   }
   span {
@@ -29,7 +33,7 @@
   li a {
     text-decoration: none;
     font-size: 20px;
-    color: #333;
+    color: #fff;
   }
 
 }
