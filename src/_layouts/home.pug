@@ -5,11 +5,17 @@ html
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
     block head_end
+      link(rel="stylesheet" href="/css/style.css")
+      link(rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8") 
+      link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
 	
   body 
-    block header
+    include ../_partials/main_menu
+
 		
     block content
     
-    block footer
-    block body_end
+    include ../_partials/footer
+
+    script(type="text/javascript" src="/js/script.js")
+    
