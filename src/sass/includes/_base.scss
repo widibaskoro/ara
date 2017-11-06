@@ -1,13 +1,13 @@
 /*	FONTS
 ------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro|Roboto:100,300,400);
 
 /*	TYPOGRAPHY
 –––––––––––––––––––––––––––*/
 
 body {
-  font-family: 'Source Sans Pro', Arial, sans-serif, ;
+  font-family: 'Roboto', Arial, sans-serif, ;
   color: #555;
   font-size: 100%;
   line-height: 1.5;
@@ -28,7 +28,7 @@ img{
 }
 
 .container{
-  max-width: 992px;
+  max-width: 1200px;
   margin: auto;
   background: white;
   padding: 0 20px;
@@ -67,6 +67,15 @@ img{
 .three {
   width: 25%;
 }
+.two{
+  width: 20%;
+}
+.four{
+  width: 40%;
+}
+.c-six{
+  width: 60%;
+}
 .btn{
   padding: 12px 50px;
   text-decoration: none;
@@ -78,5 +87,9 @@ img{
   &:hover{
     background: #eaeaea;
     color: #333;
+  }
+  &.ghost-black {
+    border-color: #1d1f28;
+    color: #1d1f28;
   }
 }

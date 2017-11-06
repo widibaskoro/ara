@@ -17,7 +17,7 @@ var paths = {
   public: './public/',
   sass: './src/sass/',
   css: './public/css/',
-  data: './src/_data/'
+  data: './src/_data/index.pug.json'
 };
 
 /**
@@ -25,9 +25,13 @@ var paths = {
  * matching file name. index.pug - index.pug.json
  */
 gulp.task('pug', function () {
-  return gulp.src('./src/*.pug')
+  return gulp.src([
+      './src/**/*.pug',
+      '!./src/_layouts/*.pug',
+      '!./src/_partials/*.pug'
+    ])
     .pipe(data(function (file) {
-      return require(paths.data + path.basename(file.path) + '.json');
+      return require(paths.data);
     }))
     .pipe(pug())
     .on('error', function (err) {

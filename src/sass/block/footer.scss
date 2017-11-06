@@ -1,10 +1,11 @@
 .footer {
-  margin-top: 50px;
-  background: black;
+  // margin-top: 50px;
+  background: white;
   padding: 5px 0;
   border-top: solid 1px #d7d7d7;
   .container{
     background: transparent;
+    padding: 0;
   }
   .logo {
     // text-align: center;
@@ -21,11 +22,13 @@
   }
   span {
     font-size: .875em;
+    font-family: "Roboto";
     color: #808080;
   }
   ul.social {
     padding: 0;
     list-style-type: none;
+    margin: 5px 0;
   }
   li{
     padding: 0 10px;
@@ -33,7 +36,7 @@
   li a {
     text-decoration: none;
     font-size: 20px;
-    color: #fff;
+    color: #1d1f28;
   }
 
 }

@@ -6,6 +6,7 @@
   background: white;
   .container{
     background: white;
+    padding: 0;
   }
   .logo a > img {
     width: auto;
@@ -17,10 +18,11 @@
   }
   .logo h2{
     font-family: 'Source Serif Pro', Arial, sans-serif;
-    color: black;
+    color: #1d1f28;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 16px;
     margin: 5px 0;
+    padding: 0 20px;
     &:hover {
       opacity: .8;
     }
@@ -32,12 +34,16 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    border-top: solid 1px #d7d7d7;
     li {
       padding: 0 15px;
       height: 64px;
+      border-left: solid 1px #d7d7d7;
       &:first-child {
-        padding-left: 0;
+        // padding-left: 0;
+      }
+      &:last-child {
+        // padding-right: 0;
+        border-right: solid 1px #d7d7d7;
       }
       &:hover .dropdown-content {
         visibility: visible;
@@ -46,7 +52,7 @@
     }
     a {
       text-decoration: none;
-      color: #555;
+      color: #808080;
       font-size: .875em;
       display: flex;
       i {
@@ -55,10 +61,10 @@
       }
       &.active {
         font-weight: 600;
-        color: black;
+        color: #1d1f28;
       }
       &:hover {
-        color: black;
+        color: #1d1f28;
       }
     }
   }

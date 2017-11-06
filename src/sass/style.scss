@@ -11,13 +11,38 @@ header {
 }
 .main-content{
   // margin: 20px 0;
-  background: #000;
-  padding: 20px 0;
+  background: #fff;
+  // padding: 20px 0;
   padding-top: 0;
 
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .about {
+    padding: 0 40px;
+    padding-left: 0;
+    h1 {
+      font-size: 5em;
+      color: #1d1f28;
+      margin-bottom: 0;
+      font-family: "Roboto";
+    }
+    span {
+      font-size: 24px;
+      margin-top: -10px;
+      display: block;
+    }
+    p {
+      font-family: "Roboto";
+      font-size: .938em;
+      line-height: 2em;
+      color: #808080;
+      max-width: 85%;
+      text-align: justify;
+      margin-top: 40px;
+    }
   }
 
   & > .container {
@@ -164,4 +189,75 @@ header {
   .image{
     width: 40%;
   }
+}
+.box-menu{
+  position: relative;
+  cursor: pointer;
+  border: solid white 1px;
+  &.nt{
+    border-top: none;
+  }
+  &.nb{
+    border-bottom: none;
+  }
+  &.no-pointer{
+    cursor: default;
+  }
+  &.h-small{
+    height: 200px;
+  }
+  &.h-big{
+    height: 400px;
+  }
+  &.w-small{
+    width: 20%;
+  }
+  &.w-big{
+    width: 40%;
+  }
+  &.full{
+    width: 100%;
+
+  }
+  .bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #1d1f28;
+    &.blue{
+      background-color: #03a2e0
+    }
+    &.red{
+      background-color: #d61968;
+    }
+    &.magenta{
+      background-color: #af1685;
+    }
+    &.green{
+      background-color: #8cc73f;
+    }
+  }
+
+  .content{
+    z-index: 2;
+    position: relative;
+    padding: 20px 30px;
+  }
+  h3,p {
+    color: white;
+    margin: 0;
+  }
+  h3{
+    font-size: 2em;
+    margin: 0;
+    line-height: 1;
+    font-weight: 300;
+  }
+  p{
+    font-size: .938em;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+
 }
