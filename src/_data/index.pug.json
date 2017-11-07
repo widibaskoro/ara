@@ -56,21 +56,47 @@
     "Seragam",
     "Plakat"
   ],
-  "nav": {
-    "links": [
+  "productDetails": {
+    "details": [
       {
-        "href": "/link1",
-        "displayName": "Link 1"
+        "productName": "Logo",
+        "startPrice": "10.000"
       },
-
       {
-        "href": "/link2",
-        "displayName": "Link 2"
+        "productName": "Kartu Nama",
+        "startPrice": "10.000"
       },
-
       {
-        "href": "/link3",
-        "displayName": "Link 3"
+        "productName": "Amplop",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Faktur",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Invoice",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kwitansi",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Nota",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Surat Jalan",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Stample",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Map",
+        "startPrice": "10.000"
       }
     ]
   }

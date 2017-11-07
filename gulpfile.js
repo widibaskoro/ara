@@ -24,6 +24,23 @@ var paths = {
  * Compile .pug files and pass in data from json file
  * matching file name. index.pug - index.pug.json
  */
+ gulp.task('pug:data', function() {
+     return gulp.src('./src/**/*.json')
+         .pipe(merge('data.json', function(json, file) {
+
+             // Extract the filename and strip the extension
+             var filename = path.basename(file.path),
+                 primaryKey = filename.replace(path.extname(filename), '');
+
+             // Set the filename as the primary key for our JSON data
+             var data = {};
+             data[primaryKey.toUpperCase()] = json;
+
+             return data;
+         }))
+         .pipe(gulp.dest('/temp'));
+ });
+
 gulp.task('pug', function () {
   return gulp.src([
       './src/**/*.pug',

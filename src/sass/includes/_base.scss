@@ -19,6 +19,8 @@ img{
   width: 100%;
 }
 
+$primary : #1d1f28;
+$sub-1 : #8cc73f;
 /* ------ Normalize ----- */
 
 *,
@@ -76,6 +78,11 @@ img{
 .c-six{
   width: 60%;
 }
+.c-full {
+  width: 100%;
+  max-width: 100%!important;
+}
+
 .btn{
   padding: 12px 50px;
   text-decoration: none;
