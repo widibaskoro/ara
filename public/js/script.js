@@ -25,13 +25,15 @@ var searchProduct = function(){
 }
 var parallax = function(el, d){
   var item,scroll,height;
-  item = document.getElementById(el).childNodes[0];
+  if(document.getElementById(el) != null){
+    item = document.getElementById(el).childNodes[0];
+    scroll = window.scrollY;
+    height = document.body.clientHeight;
+    setTimeout(function(){
+      item.setAttribute("style", "transform: translate"+d+"(-"+scroll*.2+"px)");
+    }, 10);
+  }
 
-  scroll = window.scrollY;
-  height = document.body.clientHeight;
-  setTimeout(function(){
-    item.setAttribute("style", "transform: translate"+d+"(-"+scroll*.2+"px)");
-  }, 10);
 }
 if(inputSearch){
   inputSearch.addEventListener('keyup', function(){

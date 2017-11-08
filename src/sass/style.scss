@@ -23,7 +23,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(black, .5);
+    background: rgba(26, 30, 48, 0.7);
     z-index: 2;
   }
   img {
@@ -61,7 +61,18 @@ header {
   background: #fff;
   // padding: 20px 0;
   padding-top: 0;
-
+  min-height: 80vh;
+  position: relative;
+  &.has-bg::before{
+    content: '';
+    background-image: url('../img/city.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -247,7 +258,7 @@ header {
 .box-menu{
   position: relative;
   cursor: pointer;
-  border: solid white 1px;
+  border: solid transparent 1px;
   &.nt{
     border-top: none;
   }
@@ -278,7 +289,7 @@ header {
     height: 100%;
     width: 100%;
     top: 0;
-    background-color: #1d1f28;
+    background-color: rgba(#1d1f28, .95);
     &.blue{
       background-color: #03a2e0
     }
@@ -365,7 +376,7 @@ header {
   .images {
     width: 100%;
     min-height: 250px;
-    background-color: $primary;
+    background-color: #ebebeb;
   }
   .content{
     z-index: 2;
@@ -383,13 +394,93 @@ header {
       font-size: 15px;
       // letter-spacing: 1px;
       line-height: 1;
-      text-decoration: underline;
+      // text-decoration: underline;
       cursor: pointer;
+      color: $primary;
     }
     span {
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 400;
       font-family: "Roboto";
     }
   }
+}
+.form-contact {
+  margin-bottom: 70px;
+  padding: 0 20px;
+  padding-left: 0;
+  .form-input {
+    position: relative;
+    margin: 10px 0;
+    i{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 11px;
+      margin-left: 15px;
+    }
+  }
+  input[type="text"]{
+    width: 100%;
+    padding: 13px 45px;
+    font-family: "Roboto";
+    font-size: 14px;
+    border: solid 1px #d7d7d7;
+    &:focus {
+      outline: none;
+      border: solid 1px $sub-1;
+    }
+  }
+  textarea {
+    padding: 13px 45px;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #d7d7d7;
+    resize: none;
+    &:focus {
+      outline: none;
+      border: solid 1px $sub-1;
+    }
+  }
+  .mail-form{
+    display: none;
+  }
+}
+.maps-container{
+  padding: 0 40px;
+  padding-right: 0;
+  width: 100%;
+  height: 100%;
+  #maps{
+    background-color: $primary;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+}
+.other-contact {
+  ul {
+    margin: 0;
+    padding: 0;
+    li{
+      padding: 10px 0;
+    }
+    i {
+      width: 50px;
+      text-align: center;
+      &.socicon-instagram {
+        font-size: 20px;
+      }
+
+    }
+
+    p {
+      margin: 0;
+      padding-left: 10px;
+    }
+  }
+}
+.c-six.mdl h1 {
+  margin-top: 0;
 }

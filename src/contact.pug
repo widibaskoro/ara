@@ -1,0 +1,45 @@
+extends _layouts/home
+
+block content
+  .main-content
+    .container
+      .f-r
+        .six
+          .about.full
+            h1
+              | Contact Us
+            span
+              | If you have any inquiries, questions, or requests, feel free to contact us.
+          .form-contact.f-c
+            .other-contact
+              ul.f-c
+                li.f-r
+                  i.material-icons home
+                  p Jl. Anjasmoro Tengah III No 8 RT 3 RW 6 Karangayu Semarang, Jawa Tengah
+                li.f-r
+                  i.material-icons call
+                  p +62-128 058 6955
+                li.f-r
+                  i.socicon-instagram
+                  p ara.media
+                li.f-r
+                  i.material-icons mail_outline
+                  p tantangpraharawan@yahoo.com
+            br    
+            br
+            a.btn.ghost-black(href="#") Send email
+
+            .mail-form.f-c
+              .form-input
+                i.material-icons mail_outline
+                input(type="text" placeholder="Email")
+              .form-input
+                i.material-icons subject
+                input(type="text" placeholder="Subject")    
+              .form-input          
+                textarea(rows="10" placeholder="Your thought...")
+              a.btn.ghost-black(href="#") Submit
+              
+        .six
+          .maps-container
+            #maps
