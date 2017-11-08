@@ -10,21 +10,25 @@ block content
           | Redefining the professional standard of creativity
         p.c-full
           | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      
+       
       .product-service
+        .search-box
+          input#searchProduct(type="text" placeholder="Search product & service...")
+          i.material-icons search
         ul.f-r.wrap
           each pro in productDetails.details
             - var title = pro.productName;
             - var price = pro.startPrice;
             li.three.f-c
               .images
-                //- img(src="http://lorempixel.com/800/800/abstract/10")
+                //- img(src="http://lorempixel.com/800/800/abstract/1")
 
                       
               .content
                 h4
                   | #{title}
-                span
-                  | Start from #{price}
-                  
-                  
+                //- span
+                //-   | Start from #{price}
+              
+        h4.not-found
+          | No product found. 

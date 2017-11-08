@@ -97,6 +97,158 @@
       {
         "productName": "Map",
         "startPrice": "10.000"
+      },
+      {
+        "productName": "Brosur",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Flyer",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Leaflet",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Katalog",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Poster",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kartu Undangan",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kartu Ucapan",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Voucher",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kartu Diskon",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Company Profile",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Buletin",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Tabloid",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Majalah",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kalender",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Agenda",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Buku Tahunan",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Spanduk",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Umbul-umbul",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Round Tag",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Banner",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "X-Banner",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Roll-up Banner",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "NeonBox",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Reklame",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Billboard",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Shoppping Bag",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Box Catering",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Sticker",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "ID Card",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Pulpen",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Mug",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Pin",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Kaos",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Jaket",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Tas",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Payung",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Seragam",
+        "startPrice": "10.000"
+      },
+      {
+        "productName": "Plakat",
+        "startPrice": "10.000"
       }
     ]
   }
