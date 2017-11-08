@@ -4,7 +4,7 @@ block content
   .main-content
     .container
       .f-r
-        .six
+        .six.full-height
           .about.full
             h1
               | Contact Us
@@ -27,19 +27,25 @@ block content
                   p tantangpraharawan@yahoo.com
             br    
             br
-            a.btn.ghost-black(href="#") Send email
-
-            .mail-form.f-c
-              .form-input
-                i.material-icons mail_outline
-                input(type="text" placeholder="Email")
-              .form-input
-                i.material-icons subject
-                input(type="text" placeholder="Subject")    
-              .form-input          
-                textarea(rows="10" placeholder="Your thought...")
-              a.btn.ghost-black(href="#") Submit
+            a.btn.ghost-black(href="javascript:void(0)" modal-call="m-contact") Send email
+            
+            
               
         .six
           .maps-container
             #maps
+    .modal-ara#m-contact
+      .content-modal.medium
+        .close-btn
+          a(href="javascript:void(0)") 
+            i.material-icons close
+        .mail-form.f-c
+          .form-input
+            i.material-icons mail_outline
+            input(type="text" placeholder="Your email")
+          .form-input
+            i.material-icons subject
+            input(type="text" placeholder="Subject")    
+          .form-input          
+            textarea(rows="10" placeholder="Your thought...")
+          a.btn.ghost-black(href="#") Submit

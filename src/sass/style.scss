@@ -269,10 +269,13 @@ header {
     cursor: default;
   }
   &.h-small{
-    height: 200px;
+    min-height: 200px;
+    height: calc((100vh - 116px) * 25/100);
+
   }
   &.h-big{
-    height: 300px;
+    min-height: 300px;
+    height: calc((100vh - 116px) * 50/100);
   }
   &.w-small{
     width: 20%;
@@ -409,43 +412,8 @@ header {
   margin-bottom: 70px;
   padding: 0 20px;
   padding-left: 0;
-  .form-input {
-    position: relative;
-    margin: 10px 0;
-    i{
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-top: 11px;
-      margin-left: 15px;
-    }
-  }
-  input[type="text"]{
-    width: 100%;
-    padding: 13px 45px;
-    font-family: "Roboto";
-    font-size: 14px;
-    border: solid 1px #d7d7d7;
-    &:focus {
-      outline: none;
-      border: solid 1px $sub-1;
-    }
-  }
-  textarea {
-    padding: 13px 45px;
-    font-family: "Roboto";
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #d7d7d7;
-    resize: none;
-    &:focus {
-      outline: none;
-      border: solid 1px $sub-1;
-    }
-  }
-  .mail-form{
-    display: none;
-  }
+
+
 }
 .maps-container{
   padding: 0 40px;
@@ -483,4 +451,12 @@ header {
 }
 .c-six.mdl h1 {
   margin-top: 0;
+}
+span#disclaimer {
+  font-family: "Roboto";
+  font-size: .875em;
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+  font-style: italic;
 }

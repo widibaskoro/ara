@@ -10,3 +10,24 @@ block content
         p.c-full
           | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
        
+      .table
+        .pricelist
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="30%") Name
+                td(width="15%") Price
+                td(width="15%") Type
+                td Description
+            tbody
+              each item in productDetails.details
+                - var title = item.productName;
+                - var price = item.startPrice;
+                tr
+                  td #{title}
+                  td#price Rp #{price}
+                  td -
+                  td -
+          span#disclaimer *Price updated on 24 October 2017
+                
+          
