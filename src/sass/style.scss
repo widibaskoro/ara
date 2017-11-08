@@ -460,3 +460,20 @@ span#disclaimer {
   text-align: right;
   font-style: italic;
 }
+@media screen and (max-width: 1025px){
+  .container{
+    max-width: 920px;
+  }
+  .c-six, .four {
+    width: 50%
+  }
+  .main-content .about h1 {
+    font-size: 4em!important;
+  }
+  .product-service .images {
+    min-height: 200px;
+  }
+  .main-content .about p{
+    max-width: 100%;
+  }
+}
