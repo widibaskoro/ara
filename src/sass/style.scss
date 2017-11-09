@@ -63,6 +63,7 @@ header {
   padding-top: 0;
   min-height: 80vh;
   position: relative;
+  padding-top: 65px;
   &.has-bg::before{
     content: '';
     background-image: url('../img/city.jpg');
@@ -378,7 +379,7 @@ header {
 
   .images {
     width: 100%;
-    min-height: 250px;
+    min-height: 270px;
     background-color: #ebebeb;
   }
   .content{

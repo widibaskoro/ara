@@ -1,9 +1,11 @@
 .main-header {
   border-bottom: solid 1px #d7d7d7;
   // padding: 5px 0;
-  position: relative;
+  // position: relative;
   z-index: 100;
   background: white;
+  position: fixed;
+  width: 100%;
   .container{
     background: white;
     padding: 0;

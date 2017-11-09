@@ -58,7 +58,17 @@ gulp.task('pug', function () {
 
     .pipe(gulp.dest(paths.public));
 });
-
+gulp.task('build', ['pug:data'], function() {
+    return gulp.src('./src/**/*.pug')
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync('/temp/data.json'))
+        }))
+        .pipe(pug({
+            pretty: true,
+            basedir: './'
+        }))
+        .pipe(gulp.dest('/dist'));
+});
 /**
  * Recompile .pug files and live reload the browser
  */

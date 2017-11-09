@@ -2,97 +2,43 @@
   "title": "Ara Design & Printing",
   "welcome": "Gulp Pug Sass Starter",
   "link": "http://localhost:3000/",
-  "product": [
-    "Logo",
-    "Kartu Nama",
-    "Kop Surat",
-    "Amplop",
-    "Faktur",
-    "Invoice",
-    "Kwitansi",
-    "Nota",
-    "Surat Jalan",
-    "Stemple",
-    "Map",
-    "Brosur",
-    "Flyer",
-    "Leaflet",
-    "Katalog",
-    "Poster",
-    "Kartu Undangan",
-    "Kartu Ucapan",
-    "Voucher",
-    "Kartu Diskon",
-    "Company Profile",
-    "Buletin",
-    "Tabloid",
-    "Majalah",
-    "Kalender",
-    "Agenda",
-    "Buku Tahunan",
-    "Spanduk",
-    "Umbul-umbul",
-    "Round Tag",
-    "Banner",
-    "Backdrop",
-    "Giant Banner",
-    "X-Banner",
-    "Roll-up Banner",
-    "NeonBox",
-    "Reklame",
-    "Billboard",
-    "Shopping Bag",
-    "Box Catering",
-    "Sticker",
-    "ID Card",
-    "Pulpen",
-    "Mug",
-    "Gelas",
-    "Pin",
-    "Kaos",
-    "Jaket",
-    "Tas",
-    "Payung",
-    "Seragam",
-    "Plakat"
-  ],
   "productDetails": {
     "details": [
       {
         "productName": "Logo",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Kartu Nama",
-        "startPrice": "10.000"
+        "startPrice": "35.000"
       },
       {
         "productName": "Amplop",
-        "startPrice": "10.000"
+        "startPrice": "80.000"
       },
       {
         "productName": "Faktur",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Invoice",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Kwitansi",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Nota",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Surat Jalan",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "Stample",
-        "startPrice": "10.000"
+        "startPrice": "50.000"
       },
       {
         "productName": "Map",
@@ -100,50 +46,38 @@
       },
       {
         "productName": "Brosur",
-        "startPrice": "10.000"
+        "startPrice": "125.000"
       },
       {
         "productName": "Flyer",
-        "startPrice": "10.000"
+        "startPrice": "125.000"
       },
       {
         "productName": "Leaflet",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Katalog",
-        "startPrice": "10.000"
+        "startPrice": "125.000"
       },
       {
         "productName": "Poster",
-        "startPrice": "10.000"
+        "startPrice": "3.000"
       },
       {
         "productName": "Kartu Undangan",
-        "startPrice": "10.000"
+        "startPrice": "1.000"
       },
       {
         "productName": "Kartu Ucapan",
-        "startPrice": "10.000"
+        "startPrice": "100"
       },
       {
         "productName": "Voucher",
-        "startPrice": "10.000"
+        "startPrice": "100"
       },
       {
         "productName": "Kartu Diskon",
-        "startPrice": "10.000"
+        "startPrice": "100"
       },
       {
         "productName": "Company Profile",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Buletin",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Tabloid",
         "startPrice": "10.000"
       },
       {
@@ -152,104 +86,240 @@
       },
       {
         "productName": "Kalender",
-        "startPrice": "10.000"
+        "startPrice": "3.500"
       },
       {
         "productName": "Agenda",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Buku Tahunan",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Spanduk",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Umbul-umbul",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Round Tag",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Banner",
-        "startPrice": "10.000"
+        "startPrice": "5.000"
       },
       {
         "productName": "X-Banner",
-        "startPrice": "10.000"
+        "startPrice": "100.000"
       },
       {
         "productName": "Roll-up Banner",
-        "startPrice": "10.000"
+        "startPrice": "200.000"
       },
       {
         "productName": "NeonBox",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Reklame",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Billboard",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Shoppping Bag",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Box Catering",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Sticker",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "ID Card",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Pulpen",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Mug",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Pin",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Kaos",
-        "startPrice": "10.000"
-      },
-      {
-        "productName": "Jaket",
-        "startPrice": "10.000"
+        "startPrice": "500.000"
       },
       {
         "productName": "Tas",
-        "startPrice": "10.000"
+        "startPrice": "5.000"
       },
       {
-        "productName": "Payung",
-        "startPrice": "10.000"
+        "productName": "Sticker",
+        "startPrice": "300"
       },
       {
-        "productName": "Seragam",
-        "startPrice": "10.000"
+        "productName": "ID Card",
+        "startPrice": "6.000"
+      },
+      {
+        "productName": "Pulpen",
+        "startPrice": "2.000"
+      },
+      {
+        "productName": "Mug",
+        "startPrice": "25.000"
+      },
+      {
+        "productName": "Pin",
+        "startPrice": "5.000"
+      },
+      {
+        "productName": "Kaos",
+        "startPrice": "75.000"
       },
       {
         "productName": "Plakat",
-        "startPrice": "10.000"
+        "startPrice": "35.000"
+      },
+      {
+        "productName": "Jam Dinding",
+        "startPrice": "75.000"
+      }
+    ]
+  },
+  "a_three": {
+    "det": [
+      {
+        "bahan": "CTS 100",
+        "price_a": "7.000",
+        "price_b": "4.500",
+        "price_c": "4.000",
+        "price_d": "3.000"
+      },
+      {
+        "bahan": "CTS 120",
+        "price_a": "7.000",
+        "price_b": "4.500",
+        "price_c": "4.000",
+        "price_d": "3.000"
+      },
+      {
+        "bahan": "CTS 150",
+        "price_a": "7.000",
+        "price_b": "4.500",
+        "price_c": "4.000",
+        "price_d": "3.000"
+      },
+      {
+        "bahan": "AC 190",
+        "price_a": "7.000",
+        "price_b": "5.000",
+        "price_c": "4.500",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "AC 210",
+        "price_a": "8.000",
+        "price_b": "6.000",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "AC 260",
+        "price_a": "8.000",
+        "price_b": "6.000",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "AC 310",
+        "price_a": "8.500",
+        "price_b": "6.500",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "BC",
+        "price_a": "8.000",
+        "price_b": "6.500",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "LINEN",
+        "price_a": "8.000",
+        "price_b": "6.500",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "JASMINE",
+        "price_a": "8.000",
+        "price_b": "6.500",
+        "price_c": "5.000",
+        "price_d": "3.500"
+      },
+      {
+        "bahan": "ST CHOMO",
+        "price_a": "8.500",
+        "price_b": "6.500",
+        "price_c": "5.500",
+        "price_d": "5.000"
+      },
+      {
+        "bahan": "ST VINYL",
+        "price_a": "12.000",
+        "price_b": "11.000",
+        "price_c": "10.000",
+        "price_d": "10.000"
+      },
+      {
+        "bahan": "ST TRANSPARENT",
+        "price_a": "12.000",
+        "price_b": "11.000",
+        "price_c": "10.000",
+        "price_d": "10.000"
+      }
+    ]
+  },
+  "outdoor": {
+    "details": [
+      {
+        "bahan": "FL 280",
+        "harga": "20.000"
+      },
+      {
+        "bahan": "FL 340",
+        "harga": "30.000"
+      },
+      {
+        "bahan": "FL 440",
+        "harga": "40.000"
+      },
+      {
+        "bahan": "Flexy Backlite",
+        "harga": "80.000"
+      },
+      {
+        "bahan": "OMV Sticker",
+        "harga": "100.000"
+      },
+      {
+        "bahan": "Vinyl Cina",
+        "harga": "80.000"
+      },
+      {
+        "bahan": "Vinyl Ritrama",
+        "harga": "85.000"
+      },
+      {
+        "bahan": "Vinyl Transparent",
+        "harga": "90.000"
+      }
+    ]
+  },
+  "indoor": {
+    "details": [
+      {
+        "bahan": "FL 280",
+        "harga": "35.000"
+      },
+      {
+        "bahan": "FL 340",
+        "harga": "45.000"
+      },
+      {
+        "bahan": "FL 440",
+        "harga": "55.000"
+      },
+      {
+        "bahan": "Flexy Backlite",
+        "harga": "105.000"
+      },
+      {
+        "bahan": "OMV Sticker",
+        "harga": "115.000"
+      },
+      {
+        "bahan": "Vinyl Cina",
+        "harga": "90.000"
+      },
+      {
+        "bahan": "Vinyl Ritrama",
+        "harga": "110.000"
+      },
+      {
+        "bahan": "Vinyl Transparent",
+        "harga": "120.000"
+      },
+      {
+        "bahan": "Albatros+Lam",
+        "harga": "140.000"
+      },
+      {
+        "bahan": "Photopaper+Lam",
+        "harga": "140.000"
+      },
+      {
+        "bahan": "Luster",
+        "harga": "120.000"
       }
     ]
   }
+
 }

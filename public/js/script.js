@@ -47,6 +47,9 @@ var callModal = function(e){
 if(inputSearch){
   inputSearch.addEventListener('keyup', function(){
     searchProduct();
+    var inputSearchTop = document.querySelector('.product-service .search-box').offsetTop * 1;
+    inputSearchTop += 20;
+    window.scrollTo(0, inputSearchTop);
   });
 }
 window.addEventListener('scroll', function(e){
@@ -62,7 +65,7 @@ if(closeModal){
     container.forEach(function(i){
       i.classList.remove('blur');
     });
-  })  
+  })
 }
 
 var modalHandler = document.querySelectorAll('a[modal-call]');

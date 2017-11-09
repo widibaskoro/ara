@@ -30,7 +30,9 @@ $sub-1 : #03a2e0;
   background: $primary; /* Gecko Browsers */
   color: white;
 }
-
+h2{
+  color: $primary;
+}
 *,
 *:after,
 *:before {
@@ -45,7 +47,7 @@ $sub-1 : #03a2e0;
   z-index: 2;
   position: relative;
   &.blur{
-    filter: blur(1px);
+    filter: blur(2px);
   }
 }
 .f-c {
@@ -113,6 +115,10 @@ a.insert-link{
   font-weight: 600;
   text-align: center;
   margin: 5px 0;
+  &.disabled{
+    pointer-events: none;
+    opacity: .2
+  }
   &:hover{
     background: #eaeaea;
     color: #333;
@@ -124,7 +130,10 @@ a.insert-link{
 }
 
 .table{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  &:last-child{
+    margin-bottom: 100px;
+  }
   table {
     width: 100%;
     border: none;

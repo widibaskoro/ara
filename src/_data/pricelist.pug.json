@@ -1,0 +1,182 @@
+{
+  "a3": {
+    "details": [
+      {
+        "bahan": "CTS 100",
+        "price_a": "7000",
+        "price_b": "4500",
+        "price_c": "4000",
+        "price_a": "3000"
+      },
+      {
+        "bahan": "CTS 120",
+        "price_a": "7000",
+        "price_b": "4500",
+        "price_c": "4000",
+        "price_a": "3000"
+      },
+      {
+        "bahan": "CTS 150",
+        "price_a": "7000",
+        "price_b": "4500",
+        "price_c": "4000",
+        "price_a": "3000"
+      },
+      {
+        "bahan": "AC 190",
+        "price_a": "7000",
+        "price_b": "5000",
+        "price_c": "4500",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "AC 210",
+        "price_a": "8000",
+        "price_b": "6000",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "AC 260",
+        "price_a": "8000",
+        "price_b": "6000",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "AC 310",
+        "price_a": "8500",
+        "price_b": "6500",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "BC",
+        "price_a": "8000",
+        "price_b": "6500",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "LINEN",
+        "price_a": "8000",
+        "price_b": "6500",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "JASMINE",
+        "price_a": "8000",
+        "price_b": "6500",
+        "price_c": "5000",
+        "price_a": "3500"
+      },
+      {
+        "bahan": "ST CHOMO",
+        "price_a": "8500",
+        "price_b": "6500",
+        "price_c": "5500",
+        "price_a": "5000"
+      },
+      {
+        "bahan": "ST VINYL",
+        "price_a": "12.000",
+        "price_b": "11.000",
+        "price_c": "10.000",
+        "price_a": "10.000"
+      },
+      {
+        "bahan": "ST TRANSPARENT",
+        "price_a": "12.000",
+        "price_b": "11.000",
+        "price_c": "10.000",
+        "price_a": "10.000"
+      },
+    ]
+  },
+  "outdoor": {
+    "details": [
+      {
+        "bahan": "FL 280",
+        "harga": "20.000"
+      },
+      {
+        "bahan": "FL 340",
+        "harga": "30.000"
+      },
+      {
+        "bahan": "FL 440",
+        "harga": "40.000"
+      },
+      {
+        "bahan": "Flexy Backlite",
+        "harga": "80.000"
+      },
+      {
+        "bahan": "OMV Sticker",
+        "harga": "100.000"
+      },
+      {
+        "bahan": "Vinyl Cina",
+        "harga": "80.000"
+      },
+      {
+        "bahan": "Vinyl Ritrama",
+        "harga": "85.000"
+      },
+      {
+        "bahan": "Vinyl Transparent",
+        "harga": "90.000"
+      }
+    ]
+  },
+  "indoor": {
+    "details": [
+      {
+        "bahan": "FL 280",
+        "harga": "35.000"
+      },
+      {
+        "bahan": "FL 340",
+        "harga": "45.000"
+      },
+      {
+        "bahan": "FL 440",
+        "harga": "55.000"
+      },
+      {
+        "bahan": "Flexy Backlite",
+        "harga": "105.000"
+      },
+      {
+        "bahan": "OMV Sticker",
+        "harga": "115.000"
+      },
+      {
+        "bahan": "Vinyl Cina",
+        "harga": "90.000"
+      },
+      {
+        "bahan": "Vinyl Ritrama",
+        "harga": "110.000"
+      },
+      {
+        "bahan": "Vinyl Transparent",
+        "harga": "120.000"
+      },
+      {
+        "bahan": "Albatros+Lam",
+        "harga": "140.000"
+      },
+      {
+        "bahan": "Photopaper+Lam",
+        "harga": "140.000"
+      },
+      {
+        "bahan": "Luster",
+        "harga": "120.000"
+      }
+    ]
+  }
+
+}

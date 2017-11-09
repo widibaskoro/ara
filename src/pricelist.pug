@@ -9,25 +9,119 @@ block content
           | Redefining the professional standard of creativity
         p.c-full
           | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-       
+        br
       .table
+        h2 Digital Print A3
         .pricelist
           table(cellspacing="0" cellpadding="0")
             thead
               tr
-                td(width="30%") Name
-                td(width="15%") Price
-                td(width="15%") Type
-                td Description
+                td(width="30%") Material
+                td(width="17.5%") @ 0-10
+                td(width="17.5%") @ 11-50
+                td(width="17.5%") @ 51-100
+                td(width="17.5%") @ > 100
             tbody
-              each item in productDetails.details
-                - var title = item.productName;
-                - var price = item.startPrice;
+              each item in a_three.det
+                - var title = item.bahan;
+                - var price_a = item.price_a;
+                - var price_b = item.price_b;
+                - var price_c = item.price_c;
+                - var price_d = item.price_d;
+                 
+                
+                
                 tr
                   td #{title}
-                  td#price Rp #{price}
-                  td -
-                  td -
-          span#disclaimer *Price updated on 24 October 2017
+                  td#price Rp #{price_a},00
+                  td#price Rp #{price_b},00
+                  td#price Rp #{price_c},00
+                  td#price Rp #{price_d},00
+          span#disclaimer *These prices was updated on 5 November 2017
                 
+      .table
+        h2 Digital Print Outdoor
+        .pricelist
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="65%") Material
+                td(width="35%") Price/meter
+
+            tbody
+              each item in outdoor.details
+                - var title = item.bahan;
+                - var price = item.harga;
+              
+                
+                
+                tr
+                  td #{title}
+                  td#price Rp #{price},00
+          span#disclaimer *These prices was updated on 5 November 2017
+            
+      .table
+        h2 Digital Print Indoor
+        .pricelist
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="65%") Material
+                td(width="35%") Price/meter
+
+            tbody
+              each item in indoor.details
+                - var title = item.bahan;
+                - var price = item.harga;
+              
+                
+                
+                tr
+                  td #{title}
+                  td#price Rp #{price},00
+          span#disclaimer *These prices was updated on 5 November 2017
+            
+      .table
+        h2 Card Name
+        .pricelist
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="40%") Material
+                td(width="20%") 1 Side
+                td(width="20%") 2 Side
+                td(width="20%") Laminasi
+            tbody
+                tr
+                  td AC 260
+                  td#price Rp 35.000,00
+                  td#price Rp 50.000,00
+                  td#price Rp 15.000,00/side
+                tr
+                  td AC 310
+                  td#price Rp 40.000,00
+                  td#price Rp 60.000,00
+                  td#price Rp 15.000,00/side
+                  
+          span#disclaimer *These prices was updated on 5 November 2017
+      .table
+        h2 ID Card
+        .pricelist
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="60%") Quantity
+                td(width="20%") 1 Side
+                td(width="20%") 2 Side
+            tbody
+                tr
+                  td 1-100
+                  td#price Rp 5.000,00
+                  td#price Rp 7.000,00
+                tr
+                  td > 100
+                  td#price Rp 4.500,00
+                  td#price Rp 6.000,00
+                  
+          span#disclaimer *These prices was updated on 5 November 2017
           
