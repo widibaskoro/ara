@@ -21,12 +21,40 @@ html
       link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
 	
   body 
-    include ../_partials/main_menu
 
 		
-    block content
+    .main-content
+      .container
+        .login-block
+          .f-c
+            h1.logo Ara Creative. 
+            
+            .form-input
+              i.material-icons person
+              input(type="text" placeholder="Username")
+            .form-input
+              i.material-icons vpn_key
+              input(type="password" placeholder="Password")    
+            
+            a.btn.ghost-black(href="#") Sign In
     
-    include ../_partials/footer
+    .footer
+      .container.f-r.btw  
+        .f-c.f-ctr
+          span 
+           | Copyright ©Ara Design 2017
+        ul.social.f-r
+          li 
+            a(href="#")
+              i.socicon-facebook
+          li 
+            a(href="https://www.instagram.com/ara.media/?hl=en")
+              i.socicon-instagram
+          li 
+            a(href="#")
+              i.socicon-twitter
+        
+
 
     script(type="text/javascript" src="/js/script.js")
     script(type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQgxfNSekdsJLW7iJSemKkGptQmuERfVA&extension=.js")

@@ -5,7 +5,7 @@ html
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
     block meta
-      title Ara Creative - Design & Printing
+      title Reverse Project &mdash; Official Website
       meta(name="description" content="Ara Design")
 
       meta(name="twitter:card" value="summary")
@@ -14,16 +14,21 @@ html
       meta(property="og:type" content="website")
       meta(property="og:url" content="")
       meta(property="og:image" content="")
-      meta(property="og:description" content="Ara Creative - Design and Printing")
-    block head_end  
+      meta(property="og:description" content="Reverse Project &mdash; Official Website")
+    block head_end
       link(rel="stylesheet" href="/css/style.css")
       link(rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8") 
       link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
 	
   body 
-    include ../_partials/main_menu
 
-		
+    include ../_partials/main_menu_dashboard
+    .banner-dashboard
+      img.banner-img(src="img/city.jpg")
+      .f-ctr.mdl
+        h2
+          | Admin Panel
+  		
     block content
     
     include ../_partials/footer

@@ -1,0 +1,36 @@
+extends _layouts/dashboard
+
+block content
+  .main-content.admin
+    .container
+      h4 Create New Product
+      .form-input.f-r
+        label
+          | Product Name
+        input.styler(type="text" placeholder="ex. Poster, etc")
+      .form-input.f-r
+        label
+          | Price
+        input.styler(type="text" placeholder="ex. 25.000")
+      
+      .form-input.f-r
+        label
+          | Product Name
+        textarea.styler(rows="10" placeholder="Product description...")
+      
+      .form-input.f-r
+        label
+          | Product Image
+        .input-file
+          input(type="file")
+          .ara-style-input.f-r.mdl
+            i.material-icons image
+            span Upload Product Image
+      br
+      br
+      .form-input.f-r
+        label
+        .btw.c-full
+          a.btn.ghost-black(href="#") CANCEL
+          a.btn.ghost-black(href="#") SAVE
+            

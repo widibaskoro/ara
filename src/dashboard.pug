@@ -1,0 +1,46 @@
+extends _layouts/dashboard
+
+block content
+  .main-content
+    .container
+      a.btn.ghost-black(href="")
+        | Create New
+      br
+      br
+      .table
+        .pricelist
+          
+          table(cellspacing="0" cellpadding="0")
+            thead
+              tr
+                td(width="80%") Material
+                td(width="20%") Action
+            tbody
+              each item in a_three.det
+                - var title = item.bahan;
+                - var price_a = item.price_a;
+                - var price_b = item.price_b;
+                - var price_c = item.price_c;
+                - var price_d = item.price_d;
+                 
+                
+                
+                tr
+                  td #{title}
+                  td.action
+                    ul.f-r
+                      li
+                        a.f-c.f-ctr.mdl(href="")
+                          i.material-icons remove_red_eye
+                          span VIEW
+                      li
+                        a.f-c.f-ctr.mdl(href="")
+                          i.material-icons mode_edit
+                          span EDIT
+                      li
+                        a.f-c.f-ctr.mdl(href="")
+                          i.material-icons delete
+                          span DELETE
+                          
+          span#disclaimer *These prices was updated on 5 November 2017
+            
